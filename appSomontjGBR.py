@@ -19,6 +19,13 @@ import pandas as pd
 #from flasgger import Swagger
 import streamlit as st 
 
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor, AdaBoostRegressor, GradientBoostingRegressor
+from sklearn.metrics import mean_squared_error, r2_score
+
+
 from PIL import Image
 
 #app=Flask(__name__)
